@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do app</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="webfont/fa-brands-400.ttf" />
+    <style>
+      .hell .card {
+        background-color: rgb(78, 175, 255);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto my-5">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="card-title">
+                <h2 class="my-3 text-center font-italic">Todo App</h2>
+              </div>
+              <div class="input-group">
+                <input
+                  type="text"
+                  placeholder="Add a new task"
+                  class="form-control entag"
+                  id="etag"
+                />
+                <span class="">
+                  <button
+                    class="btn btn-primary ml-2"
+                    type="submit"
+                    onclick="add()"
+                  >
+                    <i class="fa-solid fa-plus fa-1x"></i>
+                  </button>
+                </span>
+              </div>
+              <div class="mt-3 hell">
+                <p class="" id="pid"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/todoapp.js"></script>
+  </body>
+</html>
